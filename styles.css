@@ -112,7 +112,7 @@ h1{
     main{
         min-height: 35%;
         height: 35%;
-        width: 90%;
+        width: 60%;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -134,5 +134,36 @@ h1{
         border-top-left-radius: 0px;
         border-bottom-right-radius: 10px;
     }
+    
+    h1{
+        text-align: left;
+        line-height: 25px;
+        margin-right: 20px;
+    }
 
+    .explanation{
+        text-align: left;
+        padding-left: 30px;
+        margin-right: 40px;
+        margin-top: 30px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .numbers{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 70px 0 32px;
+        margin-top: 40px;
+    }
+
+    .header{
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .description{
+        font-size: 8px;
+        
+    }
 }
