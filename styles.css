@@ -13,6 +13,7 @@ main{
     min-height: 600px;
     height: 70%;
     width: 250px;
+    max-width: 800px;
     margin: auto;
     display: flex;
     flex-direction: column;
